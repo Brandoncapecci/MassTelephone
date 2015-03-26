@@ -14,6 +14,7 @@ $(function() {
 		sendEmail();
 	});
 
+	//brandoncapecci@gmail.com
 	function sendEmail() {
 		$.ajax({
 			type: 'POST',
@@ -23,7 +24,7 @@ $(function() {
 				'message': {
 			   		'from_email': email,
 					'to': [{
-						'email': 'brandoncapecci@gmail.com',
+						'email': 'jeffjohnson@masstd.com',
 						'name': name,
 						'type': 'to'
 					}],
