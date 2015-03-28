@@ -120,8 +120,8 @@ ul li:hover {
 }
 ul img {
     position: relative;
-    top: -1px;
-    width: 190px;
+    top: 2px;
+    width: 220px;
     float: left;
 }
 
